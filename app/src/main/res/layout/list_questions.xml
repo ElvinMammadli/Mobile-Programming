@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="503dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="222dp"
+            android:layout_marginRight="222dp"
+            android:layout_marginBottom="467dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/write"
+            android:layout_width="373dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="248dp"
+            android:layout_marginRight="248dp"
+            android:text="QUESTION:"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignEnd="@+id/menu"
+            android:layout_alignRight="@+id/menu"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="128dp"
+            android:paddingLeft="10dp"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginRight="-5dp"
+            android:background="@drawable/answer"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="270dp"
+            android:layout_marginRight="270dp"
+
+            android:text="Correct Answer" />
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignEnd="@+id/menu"
+            android:layout_alignRight="@+id/menu"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginRight="-5dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignEnd="@+id/menu"
+            android:layout_alignRight="@+id/menu"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginRight="-4dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignEnd="@+id/menu"
+            android:layout_alignRight="@+id/menu"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="334dp"
+            android:layout_marginEnd="-7dp"
+            android:layout_marginRight="-7dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignEnd="@+id/menu"
+            android:layout_alignRight="@+id/menu"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="412dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginRight="-4dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

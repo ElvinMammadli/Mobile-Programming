@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="503dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/write"
+            android:layout_width="373dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="149dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="DuplicateIds" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="99dp"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="305dp"
+            android:layout_marginRight="305dp"
+            android:text="Select"
+            android:textColor="#3A3CE1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="352dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="383dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/answer"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="307dp"
+            android:layout_marginRight="307dp"
+            android:text="Correct Answer" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
